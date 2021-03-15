@@ -1,1 +1,1 @@
-# Vapasi Math Service
+# VapasiMath Service
