@@ -27,7 +27,7 @@ public class MathControllerTest {
         RestAssured.baseURI = "http://localhost:"+port;
 
         String requestBody = "{\"o\":1, \"t\":2, \"e\":3}";
-        Double expectedSum = 6.0;
+        Double expectedSum = 6.1;
 
         Response response = given()
                 .header(new Header("Content-Type", "application/json"))
